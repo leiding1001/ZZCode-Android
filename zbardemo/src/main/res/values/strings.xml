@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZBarDemo</string>
+
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may
+        need to restart the device.
+    </string>
+
+    <string name="scan_qr_hint">Put QR deviceNumber in the scanning frame</string>
+    <string name="scan_barcode_hint">Put Bar deviceNumber in the scanning frame</string>
+
+    <string name="scan_handshake">Scan</string>
+    <string name="scan_search">Search</string>
+    <string name="scan_multiple">批量</string>
+
+    <string name="off">off</string>
+    <string name="on">on</string>
+</resources>

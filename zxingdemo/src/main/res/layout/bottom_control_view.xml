@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/scan_controller_view"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_marginBottom="62dp"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <com.qrcode.QrtButtonControl
+            android:id="@+id/qrcodeView"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_qr"
+            android:text="@string/qrcode_handshake"
+            app:selectColor="?attr/colorPrimary"
+        />
+        <com.qrcode.QrtButtonControl
+            android:id="@+id/barcodeView"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_barcode"
+            android:text="@string/qrcode_search"
+            app:selectColor="?attr/colorPrimary"
+        />
+        <com.qrcode.QrtButtonControl
+            android:id="@+id/mulBarcodeView"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_multiple_barcode"
+            android:text="@string/qrcode_multiple"
+            app:selectColor="?attr/colorPrimary"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

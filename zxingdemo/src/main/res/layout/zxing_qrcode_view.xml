@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                style="@style/MatchMatch">
+
+    <com.qrcode.zxing.ZXingView
+        android:id="@+id/zxingview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_animTime="1000"
+        app:qrcv_barCodeTipText="@string/barcode_hint"
+        app:qrcv_barcodeRectHeight="120dp"
+
+        app:qrcv_borderColor="@android:color/transparent"
+        app:qrcv_borderSize="1dp"
+
+        app:qrcv_cornerColor="?attr/colorPrimary"
+        app:qrcv_cornerLength="15dp"
+        app:qrcv_cornerSize="2dp"
+
+        app:qrcv_isBarcode="false"
+        app:qrcv_isCenterVertical="false"
+        app:qrcv_isOnlyDecodeScanBoxArea="false"
+        app:qrcv_isScanLineReverse="true"
+        app:qrcv_isShowDefaultGridScanLineDrawable="false"
+        app:qrcv_isShowDefaultScanLineDrawable="true"
+
+        app:qrcv_isShowTipTextAsSingleLine="true"
+        app:qrcv_isTipTextBelowRect="true"
+        app:qrcv_maskColor="#60000000"
+        app:qrcv_qrCodeTipText="@string/qrcode__hint"
+        app:qrcv_rectWidth="180dp"
+        app:qrcv_scanLineColor="?attr/colorPrimary"
+        app:qrcv_scanLineMargin="0dp"
+        app:qrcv_scanLineSize="0.5dp"
+        app:qrcv_tipTextColor="?attr/colorPrimary"
+        app:qrcv_tipTextMargin="5dp"
+        app:qrcv_tipTextSize="11sp"
+        app:qrcv_isShowTipBackground="false"
+
+        app:qrcv_toolbarHeight="56dp"
+        app:qrcv_topOffset="30dp"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <LinearLayout
+            android:id="@+id/flashView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:orientation="horizontal"
+            android:paddingRight="16dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_flash"/>
+
+            <TextView
+                android:id="@+id/flash_status"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="@string/qrcode_on_light"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>
