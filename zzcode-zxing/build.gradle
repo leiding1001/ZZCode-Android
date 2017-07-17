@@ -5,7 +5,7 @@ publish{
     userOrg = 'leiding'
     groupId = 'com.zzcode'
     artifactId = 'zxing'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = ''
     website = 'https://github.com/leiding1001/ZZCode-Android'
 }
