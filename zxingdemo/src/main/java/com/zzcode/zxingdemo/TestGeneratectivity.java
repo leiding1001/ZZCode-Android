@@ -1,4 +1,4 @@
-package com.qrcode.zxingdemo;
+package com.zzcode.zxingdemo;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -12,9 +12,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.qrcode.core.BGAQRCodeUtil;
-import com.qrcode.zxing.QRCodeDecoder;
-import com.qrcode.zxing.QRCodeEncoder;
+import com.zzcode.core.BGAQRCodeUtil;
+import com.zzcode.zxing.QRCodeDecoder;
+import com.zzcode.zxing.QRCodeEncoder;
 
 
 public class TestGeneratectivity extends AppCompatActivity {

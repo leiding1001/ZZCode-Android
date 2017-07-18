@@ -1,4 +1,4 @@
-package com.qrcode.core;
+package com.zzcode.core;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

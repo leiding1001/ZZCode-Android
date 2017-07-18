@@ -1,12 +1,12 @@
-package com.qrcode.zbar;
+package com.zzcode.zbar;
 
 import android.content.Context;
 import android.graphics.Rect;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-import com.qrcode.core.QRCodeView;
-import com.qrcode.core.QrcodeResult;
+import com.zzcode.core.QRCodeView;
+import com.zzcode.core.QrcodeResult;
 
 import net.sourceforge.zbar.Config;
 import net.sourceforge.zbar.Image;

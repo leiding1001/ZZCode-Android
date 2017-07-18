@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
-publish{
+publish {
     userOrg = 'leiding'
     groupId = 'com.zzcode'
-    artifactId = 'zxing'
-    publishVersion = '1.0.1'
+    artifactId = 'zzcode-zxing'
+    publishVersion = '1.0.3'
     desc = ''
     website = 'https://github.com/leiding1001/ZZCode-Android'
 }

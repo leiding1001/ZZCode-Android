@@ -1,4 +1,4 @@
-package com.qrcode.zxingdemo;
+package com.zzcode.zxingdemo;
 
 import static android.content.Context.VIBRATOR_SERVICE;
 
@@ -8,8 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
-import com.qrcode.core.QRCodeView;
-import com.qrcode.zxing.ZXingView;
+import com.zzcode.core.QRCodeView;
+import com.zzcode.zxing.ZXingView;
 
 
 public class QrScanDelegate  {

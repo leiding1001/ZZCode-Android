@@ -1,4 +1,4 @@
-package com.qrcode.zbar;
+package com.zzcode.zbar;
 
 import net.sourceforge.zbar.Symbol;
 

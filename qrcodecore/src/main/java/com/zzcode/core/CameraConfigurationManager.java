@@ -1,4 +1,4 @@
-package com.qrcode.core;
+package com.zzcode.core;
 
 import static android.content.ContentValues.TAG;
 

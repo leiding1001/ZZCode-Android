@@ -1,4 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'leiding'
+    groupId = 'com.zzcode'
+    artifactId = 'zzcode-core'
+    publishVersion = '1.0.3'
+    desc = ''
+    website = 'https://github.com/leiding1001/ZZCode-Android'
+}
 
 android {
     compileSdkVersion ANDROID_BUILD_SDK_VERSION as int

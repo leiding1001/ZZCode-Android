@@ -1,4 +1,4 @@
-package com.qrcode.zxing;
+package com.zzcode.zxing;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

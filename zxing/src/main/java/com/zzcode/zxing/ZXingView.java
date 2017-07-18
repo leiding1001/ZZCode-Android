@@ -1,4 +1,4 @@
-package com.qrcode.zxing;
+package com.zzcode.zxing;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -9,8 +9,8 @@ import com.google.zxing.MultiFormatReader;
 import com.google.zxing.PlanarYUVLuminanceSource;
 import com.google.zxing.Result;
 import com.google.zxing.common.GlobalHistogramBinarizer;
-import com.qrcode.core.QRCodeView;
-import com.qrcode.core.QrcodeResult;
+import com.zzcode.core.QRCodeView;
+import com.zzcode.core.QrcodeResult;
 
 
 public class ZXingView extends QRCodeView {

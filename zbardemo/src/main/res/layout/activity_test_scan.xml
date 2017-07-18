@@ -3,7 +3,7 @@
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 style="@style/MatchMatch">
 
-    <com.qrcode.zbar.ZBarView
+    <com.zzcode.zbar.ZBarView
         android:id="@+id/zbarview"
         style="@style/MatchMatch"
         app:qrcv_animTime="1000"

@@ -1,4 +1,4 @@
-package com.qrcode.core;
+package com.zzcode.core;
 
 /**
  * Created by dinglei on 2017/7/17.

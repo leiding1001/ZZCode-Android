@@ -1,4 +1,5 @@
-package com.qrcode;
+package com.zzcode;
+
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,9 +13,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.qrcode.core.R;
+import com.zzcode.core.R;
 
 import org.jetbrains.annotations.Nullable;
+
 
 
 /**

@@ -1,4 +1,4 @@
-package com.qrcode.zxingdemo;
+package com.zzcode.zxingdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.zxing.BarcodeFormat;
-import com.qrcode.QrtButtonControl;
-import com.qrcode.core.QRCodeView;
-import com.qrcode.core.QrcodeResult;
+import com.zzcode.QrtButtonControl;
+import com.zzcode.core.QRCodeView;
+import com.zzcode.core.QrcodeResult;
 
 
 public class TestScanActivity extends AppCompatActivity implements QRCodeView.Delegate {

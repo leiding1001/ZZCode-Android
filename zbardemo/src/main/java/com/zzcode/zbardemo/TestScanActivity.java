@@ -1,4 +1,4 @@
-package com.qrcode.zbardemo;
+package com.zzcode.zbardemo;
 
 import android.os.Bundle;
 import android.os.Vibrator;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.qrcode.core.QRCodeView;
-import com.qrcode.core.QrcodeResult;
-import com.qrcode.zbar.ZBarView;
+import com.zzcode.core.QRCodeView;
+import com.zzcode.core.QrcodeResult;
+import com.zzcode.zbar.ZBarView;
 
 
 public class TestScanActivity extends AppCompatActivity implements QRCodeView.Delegate {
