@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.zzcode'
+
+/*apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = 'leiding'
@@ -8,15 +11,19 @@ publish {
     publishVersion = '1.0.3'
     desc = ''
     website = 'https://github.com/leiding1001/ZZCode-Android'
-}
+}*/
 
 android {
-    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
-    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
-        minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
-        targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION as int
+        minSdkVersion 14
+        targetSdkVersion 25
+
+        versionCode 103
+        versionName "1.0.3"
+
     }
 }
 
